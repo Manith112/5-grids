@@ -127,24 +127,8 @@ body{
 .c > .img > img {
     border: none;
 }
-@media screen and (max-width: 800px){
-    .container{
-        width: 600px;
-    }
-    .wrapper{
-        display: grid;
-        grid-gap: 10px
 
-        
-    }
-    .text{
-        font-size: 12px;
-    }
-    .text-area{
-        font-size: 8px;
-    }
-}
-@media screen and (max-width: 375px){
+@media screen and (max-width: 800px){
     .wrapper {
         display: flex;
         flex-direction: column;
